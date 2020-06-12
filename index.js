@@ -30,4 +30,9 @@ function createFareMultiplier(integer){
     }
 }
 // console.log(createFareMultiplier(4)(4));
-const fareDoubler = createFareMultiplier(2)
+const fareDoubler = createFareMultiplier(2);
+const fareTripler = createFareMultiplier(3);
+
+let  selectDifferentDrivers  = function(drivers ,filterFn){
+    return filterFn(drivers)
+}
